@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Note Etudiant</string>
+    <string name="open_nav">Menu</string>
+    <string name="close_nav">close Menu</string>
+    <string name="text_authentification">S\'authentifier</string>
+    <string name="text_connect">Se connecter</string>
+    <string name="text_pasCompte">Vous n\'avez pas de compte?</string>
+    <string name="text_creerCompte">Créer mon compte</string>
+    <string name="text_email">Email</string>
+    <string name="text_password">Mot de passe</string>
+    <string name="text_prenom">Prénom</string>
+    <string name="text_nom">Nom</string>
+    <string name="text_passwordconfirmed">Confirmer mot de passe</string>
+    <string name="text_dejacompte">Vous avez déjà un compte?</string>
+    <string name="text_reinitialiser">Réinitialiser mon mot de passe</string>
+    <string name="text_passwordoblie">Mot de passe oublié?</string>
+    <string name="text_intro">Une application qui vous permet de gérer les notes de vos étudiants, Ainsi que qu\'aux étudiants de visualiser leur notes.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

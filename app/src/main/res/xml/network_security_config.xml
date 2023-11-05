@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--autorisation de faire passer du traffic par true-->
+
+
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">192.168.224.51</domain>
+    </domain-config>
+
+</network-security-config><!--fin autorisation passage du traffic-->
