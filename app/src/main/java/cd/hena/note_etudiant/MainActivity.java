@@ -24,9 +24,6 @@ import org.json.JSONObject;
 import java.util.HashMap;
 import java.util.Map;
 
-import cd.hena.note_etudiant.APIManager;
-import cd.hena.note_etudiant.R;
-
 public class MainActivity extends AppCompatActivity {
 
     private TextView creerBtn;
@@ -79,7 +76,10 @@ public class MainActivity extends AppCompatActivity {
         connectBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                envoyerInformationsPourVerification();
+                Intent intent=new Intent(getApplicationContext(), NoteActivity.class);
+                startActivity(intent);
+                finish();
+                //envoyerInformationsPourVerification();
             }
         });
 
@@ -134,7 +134,7 @@ public class MainActivity extends AppCompatActivity {
                                     String token = response.getJSONObject("data").getString("token");
                                     Toast.makeText(getApplicationContext(), "Connexion réussie", Toast.LENGTH_SHORT).show();
                                     // Rediriger vers l'activité suivante après la connexion réussie
-                                    Intent intent = new Intent(MainActivity.this, HomeActivity.class);
+                                    Intent intent = new Intent(MainActivity.this, NotesActivity.class);
                                     intent.putExtra("email", email);
                                     startActivity(intent);
                                     finish();

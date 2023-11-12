@@ -1,0 +1,8 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#80FFFFFF" />
+    <stroke
+        android:color="#FF000000"
+        android:width="2dp"
+        />
+    <corners android:radius="10dp" /> <!-- Rayon pour rendre les coins arrondis -->
+</shape>
